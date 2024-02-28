@@ -39,9 +39,9 @@
 * `ldapsearch -x -b dc=dawXX,dc=net “objectClass=inetOrgPerson”` -> Nos muestra el DIT de lo que indiquemos -> Para filtrar en este caso nos dara las entidades con el dc dawXX.net
 * `ldapdelete -x -D cn=admin,dc=daw25,dc=net -W -f delete_entradas.ldif` -> elimina las entidades listadas en el archivo .ldif
 
-* Clientes LSAP.
+* Clientes LDAP.
   * phpLDAPadmin para gestionar(exportar/importar/borrar/añadir) entidades.
-  * Creamos un archivo LDAP, despliegue.ldif, como si nos lo hubiéramos exportado, y utilizamos la función de importar del servicio LSAP admin
+  * Creamos un archivo LDAP, despliegue.ldif, como si nos lo hubiéramos exportado, y utilizamos la función de importar del servicio LDAP admin
 
 
 * ***Autentificacion*** -> 5.4, 5.5 restricciones para que no puedan entrar a profesor los que pertenecan a griegos y a departameto los que pertenccan a romanos.
